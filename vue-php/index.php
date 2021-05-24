@@ -16,11 +16,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
 
+    <!-- LINK AXIOS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"></script>
+
+    <!-- LINK VUE -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
 </head>
 <body>
 
-    <!-- inizio wrapper -->
-    <div class="wrapper">
+    <!-- inizio contenitore elemento root vue js -->
+    <div id="root" class="wrapper">
 
         <!-- include dell'header -->
         <?php include __DIR__ . "/partials/header.php" ?>
@@ -29,7 +34,10 @@
         <?php include __DIR__ . "/partials/main.php" ?>
 
     </div>
-    <!-- fine wrapper -->
+    <!-- fine contenitore elemento root vue js -->
+
+    <!-- LINK JS -->
+    <script type="text/javascript" src="js/script.js"></script>
 
 </body>
 </html>
